@@ -1,0 +1,129 @@
+✓ pythonocc-core imports successful
+Loaded 5 critical faces. Using 0-indexed: {0, 2, 5, 8, 43}
+Loading STEP file: /Users/apple/Downloads/CHAMFER.stp
+Successfully loaded STEP file with 1 root shape(s). Combined shape type: 0
+Extracting real triangulated mesh from STEP shape...
+Processing face 0 with 146 triangles
+Processing face 1 with 754 triangles
+Processing face 2 with 370 triangles
+Processing face 3 with 33 triangles
+Processing face 4 with 12 triangles
+Processing face 5 with 3 triangles
+Processing face 6 with 4 triangles
+Processing face 7 with 4 triangles
+Processing face 8 with 199 triangles
+Processing face 9 with 660 triangles
+Processing face 10 with 179 triangles
+Processing face 11 with 208 triangles
+Processing face 12 with 76 triangles
+Processing face 13 with 208 triangles
+Processing face 14 with 2 triangles
+Processing face 15 with 2 triangles
+Processing face 16 with 2 triangles
+Processing face 17 with 34 triangles
+Processing face 18 with 2 triangles
+Processing face 19 with 76 triangles
+Processing face 20 with 76 triangles
+Processing face 21 with 2 triangles
+Processing face 22 with 76 triangles
+Processing face 23 with 2 triangles
+Processing face 24 with 76 triangles
+Processing face 25 with 28 triangles
+Processing face 26 with 28 triangles
+Processing face 27 with 2 triangles
+Processing face 28 with 28 triangles
+Processing face 29 with 2 triangles
+Processing face 30 with 2 triangles
+Processing face 31 with 28 triangles
+Processing face 32 with 112 triangles
+Processing face 33 with 2 triangles
+Processing face 34 with 112 triangles
+Processing face 35 with 2 triangles
+Processing face 36 with 112 triangles
+Processing face 37 with 2 triangles
+Processing face 38 with 112 triangles
+Processing face 39 with 4 triangles
+Processing face 40 with 4 triangles
+Processing face 41 with 4 triangles
+Processing face 42 with 12 triangles
+Processing face 43 with 3 triangles
+Processing face 44 with 33 triangles
+Processing face 45 with 4 triangles
+Processing face 46 with 12 triangles
+Processing face 47 with 12 triangles
+Processing face 48 with 3 triangles
+Processing face 49 with 4 triangles
+Processing face 50 with 12 triangles
+Processing face 51 with 33 triangles
+Processing face 52 with 12 triangles
+Processing face 53 with 4 triangles
+Processing face 54 with 12 triangles
+Processing face 55 with 33 triangles
+Processing face 56 with 3 triangles
+Processing face 57 with 12 triangles
+Extracted real mesh: 3268 vertices, 3994 triangles
+Found 58 faces with triangulation
+Created mesh with 3268 vertices and 3994 triangles
+Face mapping: 58 faces
+Computing visibility for ViewTop
+  ViewTop sees faces: [0, 1, 4, 9, 11, 13, 14, 16, 19, 20, 22, 23, 24, 32, 34, 35, 36, 38, 42, 46, 47, 50, 52, 54, 57]
+Computing visibility for ViewBottom
+  ViewBottom sees faces: [3, 6, 7, 8, 12, 17, 18, 21, 33, 37, 39, 40, 44, 51, 55]
+Computing visibility for ViewFront
+  ViewFront sees faces: [1, 2, 5, 10, 11, 14, 15, 16, 19, 20, 25, 26, 32, 38, 40, 41, 52, 53, 57]
+Computing visibility for ViewRear
+  ViewRear sees faces: [1, 2, 4, 6, 10, 13, 22, 23, 24, 28, 30, 31, 34, 35, 36, 45, 46, 49, 56]
+Computing visibility for ViewRight
+  ViewRight sees faces: [1, 2, 10, 11, 13, 18, 20, 22, 25, 27, 31, 33, 36, 38, 39, 42, 48, 49, 53, 54]
+Computing visibility for ViewLeft
+  ViewLeft sees faces: [1, 2, 7, 10, 11, 13, 19, 21, 24, 26, 28, 29, 32, 34, 37, 41, 43, 45, 47, 50]
+Selected ViewFront, covers 2 faces, 3 faces remaining
+Selected ViewTop, covers 1 faces, 2 faces remaining
+Selected ViewBottom, covers 1 faces, 1 faces remaining
+Selected ViewLeft, covers 1 faces, 0 faces remaining
+Rendering view: ViewFront
+Saved render to: cad_analysis_results/CHAMFER/renders/ViewFront.png
+Rendering view: ViewTop
+Saved render to: cad_analysis_results/CHAMFER/renders/ViewTop.png
+Rendering view: ViewBottom
+Saved render to: cad_analysis_results/CHAMFER/renders/ViewBottom.png
+Rendering view: ViewLeft
+Saved render to: cad_analysis_results/CHAMFER/renders/ViewLeft.png
+
+=== ANALYSIS COMPLETE ===
+Runtime: 1.30 seconds
+Selected views: 4
+Critical faces covered: 5/5 (100.0%)
+Uncovered faces: set()
+Output saved to: cad_analysis_results/CHAMFER
+Analysis completed successfully!
+
+--- Profiling Summary (Top 15 Functions by Cumulative Time) ---
+         99920 function calls (99902 primitive calls) in 0.080 seconds
+
+   Random listing order was used
+   List reduced from 142 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     7270    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+      116    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        9    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       21    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        4    0.000    0.000    0.000    0.000 {method 'update' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       21    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+       74    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+    27519    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+
+
+
+
+real	0m3.051s
+user	0m2.767s
+sys	0m0.312s

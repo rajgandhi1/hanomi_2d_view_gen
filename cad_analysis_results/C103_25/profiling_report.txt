@@ -1,0 +1,117 @@
+✓ pythonocc-core imports successful
+Loaded 5 critical faces. Using 0-indexed: {1, 3, 38, 17, 18}
+Loading STEP file: /Users/apple/Downloads/C103_25.step
+Successfully loaded STEP file with 1 root shape(s). Combined shape type: 0
+Extracting real triangulated mesh from STEP shape...
+Processing face 0 with 2586 triangles
+Processing face 1 with 260 triangles
+Processing face 2 with 2542 triangles
+Processing face 3 with 688 triangles
+Processing face 4 with 1065 triangles
+Processing face 5 with 746 triangles
+Processing face 6 with 210 triangles
+Processing face 7 with 224 triangles
+Processing face 8 with 210 triangles
+Processing face 9 with 746 triangles
+Processing face 10 with 1065 triangles
+Processing face 11 with 1065 triangles
+Processing face 12 with 1065 triangles
+Processing face 13 with 100 triangles
+Processing face 14 with 100 triangles
+Processing face 15 with 100 triangles
+Processing face 16 with 100 triangles
+Processing face 17 with 649 triangles
+Processing face 18 with 211 triangles
+Processing face 19 with 2129 triangles
+Processing face 20 with 30 triangles
+Processing face 21 with 30 triangles
+Processing face 22 with 76 triangles
+Processing face 23 with 32 triangles
+Processing face 24 with 76 triangles
+Processing face 25 with 30 triangles
+Processing face 26 with 30 triangles
+Processing face 27 with 30 triangles
+Processing face 28 with 30 triangles
+Processing face 29 with 32 triangles
+Processing face 30 with 30 triangles
+Processing face 31 with 76 triangles
+Processing face 32 with 32 triangles
+Processing face 33 with 76 triangles
+Processing face 34 with 30 triangles
+Processing face 35 with 32 triangles
+Processing face 36 with 248 triangles
+Processing face 37 with 2344 triangles
+Processing face 38 with 236 triangles
+Processing face 39 with 2334 triangles
+Processing face 40 with 223 triangles
+Processing face 41 with 224 triangles
+Processing face 42 with 210 triangles
+Processing face 43 with 210 triangles
+Processing face 44 with 746 triangles
+Processing face 45 with 210 triangles
+Processing face 46 with 224 triangles
+Processing face 47 with 210 triangles
+Processing face 48 with 746 triangles
+Processing face 49 with 210 triangles
+Processing face 50 with 210 triangles
+Processing face 51 with 224 triangles
+Extracted real mesh: 15839 vertices, 25342 triangles
+Found 52 faces with triangulation
+Created mesh with 15839 vertices and 25342 triangles
+Face mapping: 52 faces
+Computing visibility for ViewTop
+  ViewTop sees faces: [0, 1, 2, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 22, 24, 26, 27, 30, 31, 32, 33, 34, 37, 38, 39, 43, 44, 45, 47, 48, 50]
+Computing visibility for ViewBottom
+  ViewBottom sees faces: [0, 1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 28, 31, 33, 37, 38, 39, 42, 44, 46, 48, 49]
+Computing visibility for ViewFront
+  ViewFront sees faces: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 17, 19, 36, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
+Computing visibility for ViewRear
+  ViewRear sees faces: [0, 37]
+Computing visibility for ViewRight
+  ViewRight sees faces: [0, 1, 2, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 21, 22, 24, 25, 27, 29, 31, 33, 34, 37, 38, 39, 41, 42, 43, 44, 47, 48]
+Computing visibility for ViewLeft
+  ViewLeft sees faces: [0, 1, 2, 4, 5, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 22, 24, 26, 28, 30, 31, 33, 35, 37, 38, 39, 44, 45, 48, 49, 50, 51]
+Selected ViewTop, covers 3 faces, 2 faces remaining
+Selected ViewFront, covers 2 faces, 0 faces remaining
+Rendering view: ViewTop
+Saved render to: cad_analysis_results/C103_25/renders/ViewTop.png
+Rendering view: ViewFront
+Saved render to: cad_analysis_results/C103_25/renders/ViewFront.png
+
+=== ANALYSIS COMPLETE ===
+Runtime: 0.97 seconds
+Selected views: 2
+Critical faces covered: 5/5 (100.0%)
+Uncovered faces: set()
+Output saved to: cad_analysis_results/C103_25
+Analysis completed successfully!
+
+--- Profiling Summary (Top 15 Functions by Cumulative Time) ---
+         499333 function calls (499322 primitive calls) in 0.268 seconds
+
+   Random listing order was used
+   List reduced from 142 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    41185    0.003    0.000    0.003    0.000 {method 'append' of 'list' objects}
+      104    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        5    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       17    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+       46    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+   137399    0.006    0.000    0.006    0.000 {built-in method builtins.len}
+
+
+
+
+real	0m2.306s
+user	0m2.501s
+sys	0m0.220s

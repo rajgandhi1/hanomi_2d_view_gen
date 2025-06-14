@@ -1,0 +1,147 @@
+✓ pythonocc-core imports successful
+Loaded 5 critical faces. Using 0-indexed: {3, 4, 6, 7, 8}
+Loading STEP file: /Users/apple/Downloads/1712.step
+Successfully loaded STEP file with 1 root shape(s). Combined shape type: 0
+Extracting real triangulated mesh from STEP shape...
+Processing face 0 with 2 triangles
+Processing face 1 with 2 triangles
+Processing face 2 with 2 triangles
+Processing face 3 with 392 triangles
+Processing face 4 with 2 triangles
+Processing face 5 with 392 triangles
+Processing face 6 with 8 triangles
+Processing face 7 with 6 triangles
+Processing face 8 with 348 triangles
+Processing face 9 with 154 triangles
+Processing face 10 with 75 triangles
+Processing face 11 with 253 triangles
+Processing face 12 with 2 triangles
+Processing face 13 with 2 triangles
+Processing face 14 with 2 triangles
+Processing face 15 with 2 triangles
+Processing face 16 with 2 triangles
+Processing face 17 with 2 triangles
+Processing face 18 with 2 triangles
+Processing face 19 with 2 triangles
+Processing face 20 with 100 triangles
+Processing face 21 with 48 triangles
+Processing face 22 with 78 triangles
+Processing face 23 with 37 triangles
+Processing face 24 with 100 triangles
+Processing face 25 with 48 triangles
+Processing face 26 with 78 triangles
+Processing face 27 with 37 triangles
+Processing face 28 with 170 triangles
+Processing face 29 with 61 triangles
+Processing face 30 with 126 triangles
+Processing face 31 with 61 triangles
+Processing face 32 with 126 triangles
+Processing face 33 with 61 triangles
+Processing face 34 with 170 triangles
+Processing face 35 with 61 triangles
+Processing face 36 with 126 triangles
+Processing face 37 with 61 triangles
+Processing face 38 with 170 triangles
+Processing face 39 with 61 triangles
+Processing face 40 with 126 triangles
+Processing face 41 with 61 triangles
+Processing face 42 with 126 triangles
+Processing face 43 with 61 triangles
+Processing face 44 with 126 triangles
+Processing face 45 with 61 triangles
+Processing face 46 with 126 triangles
+Processing face 47 with 61 triangles
+Processing face 48 with 126 triangles
+Processing face 49 with 61 triangles
+Processing face 50 with 126 triangles
+Processing face 51 with 61 triangles
+Processing face 52 with 2 triangles
+Processing face 53 with 2 triangles
+Processing face 54 with 2 triangles
+Processing face 55 with 2 triangles
+Processing face 56 with 2 triangles
+Processing face 57 with 67 triangles
+Processing face 58 with 67 triangles
+Processing face 59 with 2 triangles
+Processing face 60 with 2 triangles
+Processing face 61 with 2 triangles
+Processing face 62 with 2 triangles
+Processing face 63 with 157 triangles
+Processing face 64 with 2 triangles
+Processing face 65 with 1050 triangles
+Processing face 66 with 2 triangles
+Processing face 67 with 182 triangles
+Processing face 68 with 69 triangles
+Processing face 69 with 2088 triangles
+Processing face 70 with 2002 triangles
+Processing face 71 with 156 triangles
+Processing face 72 with 154 triangles
+Processing face 73 with 155 triangles
+Processing face 74 with 159 triangles
+Processing face 75 with 76 triangles
+Extracted real mesh: 9941 vertices, 10958 triangles
+Found 76 faces with triangulation
+Created mesh with 9941 vertices and 10958 triangles
+Face mapping: 76 faces
+Computing visibility for ViewTop
+  ViewTop sees faces: [10, 11, 21, 23, 25, 27, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 53, 68, 69]
+Computing visibility for ViewBottom
+  ViewBottom sees faces: [1, 2, 7, 8, 12, 13, 14, 15, 16, 17, 18, 19, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 55, 69, 70]
+Computing visibility for ViewFront
+  ViewFront sees faces: [2, 4, 9, 11, 15, 17, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 63, 65, 67, 69, 70, 71, 72, 73, 74, 75]
+Computing visibility for ViewRear
+  ViewRear sees faces: [0, 1, 6, 9, 11, 12, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 56, 59, 60, 61, 62, 63, 64, 65, 67, 69, 70, 71, 72, 73, 74]
+Computing visibility for ViewRight
+  ViewRight sees faces: [5, 9, 11, 14, 19, 20, 22, 24, 26, 29, 35, 39, 43, 45, 49, 54, 57, 63, 65, 66, 67, 69, 70, 71, 72, 73, 74, 75]
+Computing visibility for ViewLeft
+  ViewLeft sees faces: [3, 9, 11, 13, 16, 20, 22, 24, 26, 31, 33, 37, 41, 47, 51, 52, 58, 63, 65, 67, 69, 70, 71, 72, 73, 74, 75]
+Selected ViewBottom, covers 2 faces, 3 faces remaining
+Selected ViewFront, covers 1 faces, 2 faces remaining
+Selected ViewRear, covers 1 faces, 1 faces remaining
+Selected ViewLeft, covers 1 faces, 0 faces remaining
+Rendering view: ViewBottom
+Saved render to: cad_analysis_results/1712/renders/ViewBottom.png
+Rendering view: ViewFront
+Saved render to: cad_analysis_results/1712/renders/ViewFront.png
+Rendering view: ViewRear
+Saved render to: cad_analysis_results/1712/renders/ViewRear.png
+Rendering view: ViewLeft
+Saved render to: cad_analysis_results/1712/renders/ViewLeft.png
+
+=== ANALYSIS COMPLETE ===
+Runtime: 1.59 seconds
+Selected views: 4
+Critical faces covered: 5/5 (100.0%)
+Uncovered faces: set()
+Output saved to: cad_analysis_results/1712
+Analysis completed successfully!
+
+--- Profiling Summary (Top 15 Functions by Cumulative Time) ---
+         255168 function calls (255151 primitive calls) in 0.461 seconds
+
+   Random listing order was used
+   List reduced from 142 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    20907    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+      152    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        9    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       21    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        4    0.000    0.000    0.000    0.000 {method 'update' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       21    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+       72    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+    61108    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+
+
+
+
+real	0m2.937s
+user	0m3.155s
+sys	0m0.245s

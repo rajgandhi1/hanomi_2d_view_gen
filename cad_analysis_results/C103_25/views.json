@@ -1,0 +1,17 @@
+[
+  {
+    "view": "ViewTop",
+    "covered_faces": [
+      1,
+      38,
+      18
+    ]
+  },
+  {
+    "view": "ViewFront",
+    "covered_faces": [
+      3,
+      17
+    ]
+  }
+]

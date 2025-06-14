@@ -1,0 +1,27 @@
+[
+  {
+    "view": "ViewBottom",
+    "covered_faces": [
+      7,
+      8
+    ]
+  },
+  {
+    "view": "ViewFront",
+    "covered_faces": [
+      4
+    ]
+  },
+  {
+    "view": "ViewRear",
+    "covered_faces": [
+      6
+    ]
+  },
+  {
+    "view": "ViewLeft",
+    "covered_faces": [
+      3
+    ]
+  }
+]
