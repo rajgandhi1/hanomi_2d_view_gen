@@ -362,11 +362,11 @@ class RealGeometryStepAnalyzer:
         with open(critical_faces_file, 'r') as f:
             critical_faces_data = json.load(f)
         
-        # The loaded IDs are 1-based, so convert to 0-based for internal use
-        one_based_ids = critical_faces_data.get('critical_face_ids', [])
-        critical_faces = set(i - 1 for i in one_based_ids if i > 0)
+        # The loaded IDs are already 0-based, use them directly
+        critical_face_ids = critical_faces_data.get('critical_face_ids', [])
+        critical_faces = set(critical_face_ids)
         
-        print(f"Loaded {len(one_based_ids)} critical faces. Using 0-indexed: {critical_faces}")
+        print(f"Loaded {len(critical_face_ids)} critical faces. Using 0-indexed: {critical_faces}")
         
         if not PYTHONOCC_AVAILABLE:
             raise ImportError("pythonocc-core not available for real STEP analysis")
